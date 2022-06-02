@@ -9,7 +9,7 @@
 -- TO ADD???: Autotype without needing to execute each time
 
 _G.wpmlimit = 999 -- Max WPM you can hit, will start stuttering at this limit
-_G.keydelay = 0.075 -- Delay between keys to seem more legit. 0.075 ~ 144wpm
+_G.keydelay = 0.015 -- Delay between keys to seem more legit. 0.075 ~ 144wpm
 
 local vim = game:GetService("VirtualInputManager") -- I specifically did this bc the SynX keypress used only VK bytecodes
 -- Interpreting straight letter to VIM seems to be faster than using SynX VK, and it works without needing game focus
